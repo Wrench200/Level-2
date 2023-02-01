@@ -1,0 +1,42 @@
+.hero{
+    padding-top: 60px;
+    & h1{
+        font-size: 80px;
+        word-spacing: 5px;
+        padding-bottom: 30px;
+        font-family: 'Montserrat', sans-serif;
+    
+       span:first-of-type{
+            font-size: 120px;
+            opacity: 0.2;
+            position: relative;
+            top: 50px;
+
+        }
+        :first-of-type+span{
+            color: rgb(241, 67, 67);
+            font-style: italic;
+            font-family: 'Merriweather', serif;
+        }
+       
+    }
+     p {
+        font-size: 23px;
+        word-spacing: 5px;
+        padding-bottom: 40px;
+        font-family: 'Montserrat', serif;
+       
+
+    }
+    a{
+        background-color: rgb(241, 67, 67);
+        text-decoration: none;
+        color: white;
+        text-transform: uppercase;
+        padding: 4px 27px 4px 27px;
+        border-radius: 2%;
+        letter-spacing: 2px;
+        font-family: 'Catamaran', sans-serif;
+        font-weight: 500;
+    }
+}

@@ -1,0 +1,11 @@
+{
+  "name": "scss-practcals",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "sass": "node-sass styles/styles.scss css/styles.css"
+  },
+  "author": "Njeik",
+  "license": "ISC"
+}
